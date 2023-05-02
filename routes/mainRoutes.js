@@ -6,5 +6,6 @@ const router = Router();
 
 // routes
 router.get('/', mainController.home_get);
+router.get('/blogger', mainController.blogger_get);
 
 module.exports = router;

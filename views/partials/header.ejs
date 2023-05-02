@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %> - Bloggmaskinen</title>
     <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/burgermeny.js" defer></script>
 </head>
 <body>
 
-    <nav>
+    <nav class="mainNav">
         <ul>
             <li><a href="/">Hjem</a></li>
+            <li><a href="/blogger">Blogger</a></li>
+            <button class="rightNav burgerButton"><img class="rightNav" src="/img/bars-solid.png"></button>
+            <nav class="burgerNav hidden">
+                <% if (true) { %>
+                    <li><a href="/profil">Min profil</a></li>
+                <% } else { %>
+                    <li><a href="/logg-inn">Logg inn</a></li>
+                <% } %>
+                <li><a href="#">Andre profiler</a></li>
+            </nav>
         </ul>
     </nav>
