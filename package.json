@@ -1,0 +1,26 @@
+{
+  "name": "proveeksamen-oppgave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonadro/proveeksamen-oppgave.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonadro/proveeksamen-oppgave/issues"
+  },
+  "homepage": "https://github.com/sonadro/proveeksamen-oppgave#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  }
+}
