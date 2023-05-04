@@ -1,0 +1,54 @@
+.blogg {
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+}
+
+.forfatter {
+    font-style: italic;
+}
+
+.innledning, .tekst {
+    border-top: 2px solid black;
+}
+
+.innledning p, .tekst p {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.reaksjoner img {
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.reaksjoner {
+    border-top: 2px solid black;
+    height: 45px !important;
+}
+
+.reaksjoner * {
+    display: inline-block;
+}
+
+.reaksjoner img {
+    cursor: pointer;
+}
+
+.commentsImgContainer {
+    float: right;
+}

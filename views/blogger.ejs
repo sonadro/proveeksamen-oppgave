@@ -1,5 +1,30 @@
 <%- include('partials/header') %>
 
-    
+    <!-- css -->
+    <link rel="stylesheet" href="/css/blogger.css">
+
+    <div class="main">
+        <div class="blogg">
+            <h1 class="blogg_ID">Bloggens tittel</h1>
+            <h2>Av: <span class="forfatter">Forfatter</span></h2>
+            <div class="innledning">
+                <p>Innledning...</p>
+            </div>
+            <div class="tekst">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe minus obcaecati? Consequatur soluta, sint dolorem et laboriosam eos est dolor nobis dolore odio repellat vel ex mollitia libero alias?</p>
+            </div>
+            <div class="reaksjoner">
+                <div class="likesImgContainer">
+                    <img class="notLiked" src="/img/star-hollow.png" alt="">
+                    <p class="likesAmount">0</p>
+                </div>
+
+                <div class="commentsImgContainer">
+                    <p class="commentsAmount">0</p>
+                    <img class="commentsImg" src="/img/comment-regular.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
 <%- include('partials/footer') %>
