@@ -1,19 +1,54 @@
-.blogg {
+.blogg, .popupBlogg {
     border: 2px solid black;
+}
+
+* :not(nav *) {
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
     font-size: 18px;
     display: inline-block;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 h2 {
     font-size: 14px;
     font-weight: 400;
-    display: inline-block;
     float: right;
     margin-right: 5px;
+}
+
+.commentsText {
+    margin: 0px;
+    text-align: center;
+}
+
+.commentsContainer {
+    margin-top: 2px solid black !important;
+}
+
+.comment {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.comment p {
+    margin: 10px ;
+}
+
+.comment img {
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.username {
+    right: 0px;
+    font-style: italic;
 }
 
 .forfatter {

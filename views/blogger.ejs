@@ -4,8 +4,45 @@
     <link rel="stylesheet" href="/css/blogger.css">
 
     <div class="main">
-        <div class="blogg">
-            <h1 class="blogg_ID">Bloggens tittel</h1>
+        <!-- popup blogg -->
+        <div class="popupBlogg">
+            <h1>Bloggens tittel</h1>
+            <h2>Av: <span class="forfatter">Forfatter</span></h2>
+            <p class="commentsText">Kommentarer:</p>
+            <div class="commentsContainer">
+                <div class="comment">
+                    <p class="commentText">Veldig fin blogg!</p>
+                    <p class="username">Bruker</p>
+                </div>
+                <div class="comment">
+                    <p class="commentText">Veldig fin blogg!</p>
+                    <p class="username">Bruker</p>
+                </div>
+                <div class="comment">
+                    <p class="commentText">Veldig fin blogg!</p>
+                    <p class="username">Bruker</p>
+                </div>
+                <div class="comment">
+                    <p class="commentText">Veldig fin blogg!</p>
+                    <p class="username">Bruker</p>
+                </div>
+            </div>
+            <div class="reaksjoner">
+                <div class="likesImgContainer">
+                    <img class="notLiked" src="/img/star-hollow.png" alt="">
+                    <p class="likesAmount">0</p>
+                </div>
+
+                <div class="commentsImgContainer">
+                    <p class="commentsAmount">0</p>
+                    <img class="commentsImg" src="/img/comment-regular.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- alle blogger -->
+        <div class="blogg hidden">
+            <h1><a href="/blogger/?id=bloggID">Bloggens tittel</a></h1>
             <h2>Av: <span class="forfatter">Forfatter</span></h2>
             <div class="innledning">
                 <p>Innledning...</p>
