@@ -21,6 +21,14 @@ const userSchema = new mongoose.Schema({
     posted_comments: {
         type: Array,
         required: false
+    },
+    liked_blogs: {
+        type: Array,
+        required: false
+    },
+    liked_comments: {
+        type: Array,
+        required: false
     }
 });
 

@@ -1,12 +1,8 @@
-// packages
+// mongoose
 const mongoose = require('mongoose');
 
-const blogSchema = new mongoose.Schema({
+const commentSchema = new mongoose.Schema({
     poster: {
-        type: String,
-        required: true
-    },
-    tittel: {
         type: String,
         required: true
     },
@@ -20,6 +16,6 @@ const blogSchema = new mongoose.Schema({
     }
 });
 
-const Blog = mongoose.model('Blog', blogSchema);
+const Comment = mongoose.model('Comment', commentSchema);
 
-module.exports = Blog;
+module.exports = Comment;
