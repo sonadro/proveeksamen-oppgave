@@ -1,0 +1,21 @@
+form {
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+form * {
+    margin: 5px;
+    text-align: center;
+}
+
+#email {
+    width: 25ch;
+}
+
+#username {
+    width: 20ch;
+}
+
+#password {
+    width: 24ch;
+}

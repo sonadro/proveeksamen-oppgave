@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/login.css">
+
+    <div class="main">
+        <form class="loginForm">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+
+            <label for="username">Brukernavn:</label>
+            <input type="text" name="username" id="username">
+
+            <label for="password">Passord:</label>
+            <input type="password" name="password" id="password">
+
+            <button type="submit">Logg inn</button>
+        </form>
+
+        <br><a href="/lag-bruker">Mangler du en bruker? Lag den her.</a>
+    </div>
+
+<%- include('partials/footer') %>
