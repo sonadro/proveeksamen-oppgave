@@ -18,8 +18,7 @@ const createUser = async function(user) {
 
 createForm.addEventListener('submit', e => {
     e.preventDefault();
-
-    console.log(createForm.email.value, createForm.username.value, createForm.password.value);
+    
     const user = {
         username: createForm.username.value,
         email: createForm.email.value,

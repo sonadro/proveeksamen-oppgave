@@ -1,6 +1,7 @@
 // packages
 const express = require('express');
 const mongoose = require('mongoose');
+const cookieParser = require('cookie-parser');
 
 // environment variables
 const { dbUser, dbPass } = require('./config.json');
@@ -17,6 +18,7 @@ const server = express();
 // middleware
 server.use(express.static('public'));
 server.use(express.json());
+server.use(cookieParser());
 
 // view engine
 server.set('view engine', 'ejs');
